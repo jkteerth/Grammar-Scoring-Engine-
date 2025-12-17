@@ -1,10 +1,10 @@
-🎙️ Grammar Scoring Engine from Voice & Video
+🎙️ Grammar Scoring Engine from Voice & 
 
 (Python | AI | Offline ASR | ML Grammar Scoring)
 
 📌 Project Overview
 
-This project is an AI-based Grammar Scoring Engine that evaluates spoken English from audio or video inputs.
+This project is an AI-based Grammar Scoring Engine that evaluates spoken English from audio  inputs.
 It converts speech to text, corrects grammatical errors using pretrained transformer models, and produces a grammar score out of 100 with visual feedback.
 
 The system supports:
@@ -13,11 +13,11 @@ The system supports:
 
 🎤 Live voice recording (Start / Stop)
 
-🎬 Video upload (MP4, AVI, MKV, MOV → audio extracted)
-
 📊 Grammar score visualization
 
 🌊 Audio waveform visualization
+ 
+📊  provide the the corrected sentence and input sentence 
 
 🖥️ Modern CustomTkinter UI
 
@@ -33,7 +33,7 @@ Grammar Correction using Transformers (T5-base)
 
 ML-based Grammar Scoring (0–100)
 
-Audio & Video Support
+Audio Support
 
 Waveform Visualization
 
@@ -105,18 +105,6 @@ M4A
 FLAC
 
 OGG
-
-🎬 Video
-
-MP4
-
-AVI
-
-MKV
-
-MOV
-
-(Video audio is extracted automatically.)
 
 🛠️ Installation & Setup (Windows)
 1️⃣ Clone or Download Project
@@ -196,8 +184,6 @@ Score range: 0–100
 
 Designed to produce realistic human-like scores
 
-🎯 SHL Interview Explanation (Recommended)
-
 “The system uses offline speech recognition, transformer-based grammar correction, and ML-driven scoring to evaluate spoken English from audio and video inputs. It is fully offline, scalable, and reproducible.”
 
 🔮 Future Enhancements
@@ -213,6 +199,4 @@ Web deployment (Flask / HuggingFace Spaces)
 Confidence scoring per sentence
 
 👨‍💻 Author
-
-Developed as part of an SHL AI Assessment Project
 Focused on ML, NLP, and Speech Processing 
