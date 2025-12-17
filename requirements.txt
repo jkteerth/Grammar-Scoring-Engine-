@@ -1,0 +1,8 @@
+torch
+transformers
+sentence-transformers
+openai-whisper
+soundfile
+pyaudio
+numpy
+scipy
