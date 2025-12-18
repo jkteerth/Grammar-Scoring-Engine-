@@ -1,4 +1,4 @@
-🎙️ Grammar Scoring Engine from Voice & 
+🎙️ Grammar Scoring Engine from Voice 
 
 (Python | AI | Offline ASR | ML Grammar Scoring)
 
@@ -27,21 +27,21 @@ This project was developed as part of an SHL assessment and follows industry-gra
 
 🚀 Key Features
 
-Offline Speech Recognition (Vosk – no internet required)
+● Offline Speech Recognition (Vosk – no internet required)
 
-Grammar Correction using Transformers (T5-base)
+● Grammar Correction using Transformers (T5-base)
 
-ML-based Grammar Scoring (0–100)
+● ML-based Grammar Scoring (0–100)
 
-Audio Support
+● Audio Support
 
-Waveform Visualization
+● Waveform Visualization
 
-Animated Score Visualization
+● Animated Score Visualization
 
-Threaded Processing (No UI Freeze)
+● Threaded Processing (No UI Freeze)
 
-Cross-Platform (Windows tested)
+● Cross-Platform (Windows tested)
 
 🧠 Architecture Pipeline
 Audio / Video Input
@@ -71,9 +71,6 @@ SHL/
 ├── audio/
 │   ├── recorder.py
 │   └── audio_utils.py
-│
-├── video/
-│   └── video_utils.py         # Video → Audio extraction
 │
 ├── ui/
 │   └── main_ui.py             # CustomTkinter UI
@@ -160,27 +157,27 @@ Click Score & Process
 
 View:
 
-Original text
+● Original text
 
-Corrected sentence
+● Corrected sentence
 
-Grammar score
+● Grammar score
 
-Waveform
+● Waveform
 
 Animated score chart
 
 📊 Grammar Scoring Logic
 
-Grammar is corrected using a pretrained T5 transformer
+ ‣ Grammar is corrected using a pretrained T5 transformer
 
-Score is calculated based on:
+ ‣ Score is calculated based on:
 
-Degree of correction
+‣ Degree of correction
 
-Structural differences
+‣ Structural differences
 
-Score range: 0–100
+‣ Score range: 0–100
 
 Designed to produce realistic human-like scores
 
@@ -188,15 +185,15 @@ Designed to produce realistic human-like scores
 
 🔮 Future Enhancements
 
-Browser-based microphone & camera
+● Browser-based microphone & camera
 
-CEFR level prediction (A1–C2)
+● CEFR level prediction (A1–C2)
 
-PDF report export
+● PDF report export
 
-Web deployment (Flask / HuggingFace Spaces)
+● Web deployment (Flask / HuggingFace Spaces)
 
-Confidence scoring per sentence
+● Confidence scoring per sentence
 
 👨‍💻 Author
 Focused on ML, NLP, and Speech Processing 
